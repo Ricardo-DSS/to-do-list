@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+/*
+icon: <a href="https://www.flaticon.com/free-icons/delete" title="delete icons">Delete icons created by Pixel perfect - Flaticon</a>
+*/
+body {
+    background-color: #E8AB9C;
+}
+
+#container {
+    width: 50%;
+    margin: 5% auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    margin-bottom: 50px;
+}
+
+#newTask {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#input-task {
+    width: 40%;
+    margin-right: 10px;
+    border: none;
+    border-bottom: 2px solid #7a6385;
+    font-size: 20px;
+}
+
+#input-task:focus {
+    outline: none;
+}
+
+#add-task-button {
+    color: white;
+    background-color: purple;
+    border: none;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+#add-task-button:hover {
+    opacity: 1;
+}
+
+li {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    line-height: 2;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: lighter;
+}
+
+.task {
+    width: 100%;
+    margin: 10px 10px;
+}
+
+.delete-btn {
+    background: url("../assets/del-icon-32px.png") no-repeat;
+    margin: 10px 10px;
+    height: 32px;
+    width: 35px;
+    border: none;
+    opacity: 0.5;
+}
+
+.delete-btn:hover {
+    opacity: 1;
+}
